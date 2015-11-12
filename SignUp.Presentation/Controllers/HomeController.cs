@@ -16,7 +16,10 @@ namespace SignUp.Presentation.Controllers
             return View();
         }
 
-        
+        public ActionResult SaveMember()
+        {
+            return View();
+        }
 
     }
 }

@@ -42,6 +42,20 @@
     <Compile Include="MemberBusiness.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SignUp.DataModel\SignUp.DataModel.csproj">
+      <Project>{1997cb9b-febb-4556-b545-b448e0326a13}</Project>
+      <Name>SignUp.DataModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SignUp.Repository\SignUp.Repository.csproj">
+      <Project>{1c097ba2-99e6-42a0-887c-9108e5265e6a}</Project>
+      <Name>SignUp.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SignUp.ViewModel\SignUp.ViewModel.csproj">
+      <Project>{b32f06b0-86f0-4ae5-8bb0-51267d75d21d}</Project>
+      <Name>SignUp.ViewModel</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

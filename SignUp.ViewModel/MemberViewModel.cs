@@ -1,7 +1,7 @@
 ﻿
 namespace SignUp.ViewModel
 {
-    class MemberViewModel
+    public class MemberViewModel
     {
         public string MemberName { get; set; }
         public string MemberPassword1 { get; set; }
